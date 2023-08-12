@@ -32,7 +32,7 @@ The initial memory footprint of the trained model exceeded 300MB. However, by em
 
 To deploy the model, utilize the `script.py` file. This Python script is executable from the command line using the following command:
 ```bash
-python script.py "path/to/directory"  <br>
+python script.py "path/to/directory" 
 
 
 
