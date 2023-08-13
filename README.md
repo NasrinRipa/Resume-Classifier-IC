@@ -1,5 +1,5 @@
 # Resume-Classifier-IC
-📄 Welcome to My Resume Classifier Repository 📄
+📁📄 Welcome to My Resume Classifier Repository 
 
 This work presents a resume-classifier ML model which can categorize resumes from a input directory containing pdf files of resumes. I used "Blurr" to train the model and the script.py file can be run directly from the commandline terminal to get the output. 
 
@@ -43,10 +43,13 @@ The trained model has a memory of 300+MB. I compressed this model using ONNX qua
 ## Model Deployment and Running the Script from CMD terminal:
 
 For model deplyoment, please use the script.py file. This Python script is executable from the command line as follows:
-python script.py "path/to/dir". <br>
+```bash
+python script.py "path/to/dir".
+```
+<br>
 
 The script takes a directory containing the resumes to be categorized as input. Using the trained model, the script categorizes each resume.
 <br>
-•For each resume, it moves the resume to the respective category folder.
+• For each resume, it moves the resume to the respective category folder.
 <br>
 • The script also creates and writes a CSV file named as categorized_resumes.csv containing two columns: filename and category.
